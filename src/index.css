@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.img{
+    width:100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+/* 
+@media (max-width: 414px) {
+    .mobiledevice {
+        display: none;
+    }
+} */
+#name{
+    border-bottom: 1px solid black;
+}
+.border1{
+    border-right: 1px solid rgb(170, 170, 170);
+}
+body{
+    background-color: whitesmoke;
+}
