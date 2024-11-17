@@ -243,13 +243,13 @@ const Navbar = () => {
     {isModalOpen && (
   <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
     <div className="bg-white p-6 rounded-lg shadow-lg w-full sm:w-96 md:w-1/2 lg:w-1/3">
-      <button onClick={closeModal} className="text-2xl absolute top-4 right-4">
+      <button onClick={closeModal} className="text-2xl ">
         <IoCloseSharp />
       </button>
       <div className='flex justify-center h-24'>
         <img src={Registerlogo} alt="Register Logo" className="w-20 h-20" />
       </div>
-      <h1 className='text-center text-3xl font-semibold mt-4'>Register Here!</h1>
+      <h1 className='text-center text-3xl font-semibold '>Register Here!</h1>
       <button className='w-full mt-4'>
         <div className='flex items-center border p-2'>
           <div className='w-12'>
@@ -309,7 +309,7 @@ const Navbar = () => {
 {isLoginModalOpen && (
   <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
     <div className="bg-white p-6 rounded-lg shadow-lg w-full sm:w-96 md:w-1/2 lg:w-1/3">
-      <button onClick={closeLoginModal} className="text-2xl absolute top-4 right-4">
+      <button onClick={closeLoginModal} className="text-2xl ">
         <IoCloseSharp />
       </button>
       <div className='flex justify-center h-24'>
