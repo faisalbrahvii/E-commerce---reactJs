@@ -1,18 +1,17 @@
 import React from 'react';
-import Banner1 from '../assests/banners/Banner1.jpg';
-import Banner2 from '../assests/banners/banner2.jpg';
-import Banner3 from '../assests/banners/banner3.jpg';
+
+import { bannerss } from '../Data/SeoData';
 
 const Items = () => {
   return (
     <div className="container mx-auto mt-10 px-4">
       <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {[Banner1, Banner2, Banner3].map((banner, index) => (
+        {bannerss.map((item, index) => (
           <div
             key={index}
             className="border  bg-cover bg-center p-2 sm:p-2 md:p-2 lg:p-2 rounded-lg shadow-lg"
           >
-            <img src={banner} className='w-full h-full' alt="" />
+            <img src={item.image} className='w-full h-full' alt="" />
             {/* Uncomment and update this section for text overlay */}
             {/* <div className="bg-black/60 p-4 rounded-lg">
               <h2 className="font-sans text-white text-lg md:text-xl lg:text-2xl">Intelligent</h2>

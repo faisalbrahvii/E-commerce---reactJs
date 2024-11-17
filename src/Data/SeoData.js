@@ -56,6 +56,12 @@ import shoes3 from '../assests/product/shoes/shoes3.png';
 import shoes4 from '../assests/product/shoes/shoes4.png';
 import shoes5 from '../assests/product/shoes/shoes5.png';
 
+// banner for item pages
+import ban1 from '../assests/ban/Banner1.jpg';
+import ban2 from '../assests/ban/banner2.jpg';
+import ban3 from '../assests/ban/banner3.jpg';
+
+
 export const product = [
     { id: 1, name: 'Only Check Shirt', price: '$25.50', des:'nobis ipsa maxime, eaque natus ipsa maxime, eaque natus.heik shie ksifh hei. 🎉' , image: p1 },
     { id: 2, name: 'Herschel supply', price: '$75.00', des:'L.ipsa maxime, eaque natus.' ,  image: p2 },
@@ -139,3 +145,10 @@ export const disproduct = [
     { id: 99, name: 'SmartWatch', category: 'Tech', image: pp9 },
     { id: 170, name: 'Sunglasses', category: 'Tech', image: pp10 },
 ];
+
+
+export const bannerss = [
+    { id: 1, image: ban1 },
+    { id: 2, image: ban2 },
+    { id: 3, image: ban3 },
+]

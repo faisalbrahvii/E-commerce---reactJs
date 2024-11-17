@@ -61,7 +61,7 @@ const Details = () => {
   };
 
   if (loading) {
-    return <SkeletonLoader />; // Show skeleton loader while data is loading
+    return <SkeletonLoader />; 
   }
 
   if (!selectedProduct) {
