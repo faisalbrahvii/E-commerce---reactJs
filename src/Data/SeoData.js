@@ -57,9 +57,9 @@ import shoes4 from '../assests/product/shoes/shoes4.png';
 import shoes5 from '../assests/product/shoes/shoes5.png';
 
 // banner for item pages
-import ban1 from '../assests/ban/Banner1.jpg';
-import ban2 from '../assests/ban/banner2.jpg';
-import ban3 from '../assests/ban/banner3.jpg';
+import ban1 from '../assests/ban/ban.jpg';
+import ban2 from '../assests/ban/ban2.jpg';
+import ban3 from '../assests/ban/ban3.jpg';
 
 
 export const product = [
