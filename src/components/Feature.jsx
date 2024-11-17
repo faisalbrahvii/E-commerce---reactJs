@@ -76,40 +76,39 @@ const Feature = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* Cart Section */}
         <div className="p-4 border rounded-lg">
-          <div className="grid grid-cols-4 gap-32 text-gray-600 font-semibold border-b pb-4">
-            <span>Product</span>
-            <span className=''>Name</span>
-            <span>Quantity</span>
-            <span>Total</span>
-          </div>
+  <div className="grid grid-cols-4 gap-8 text-gray-600 font-semibold border-b pb-4">
+    <span className="text-center sm:text-left">Product</span>
+    <span className="text-center sm:text-left">Name</span>
+    <span className="text-center sm:text-left">Quantity</span>
+    <span className="text-center sm:text-left">Total</span>
+  </div>
 
-          {cartItems.map((item, index) => (
-            <div
-              key={item.id}
-              className="flex flex-col md:flex-row items-center justify-between mt-3 border-b py-4"
-            >
-              <div className="flex items-center gap-4 w-full md:w-auto">
-                <img
-                  src={item.image}
-                  alt="Product"
-                  className="w-11 h-11 object-cover rounded"
-                />
-                <span className="font-semibold text-sm sm:text-base">
-                  {item.name}
-                </span>
-              </div>
+  {cartItems.map((item, index) => (
+    <div
+      key={item.id}
+      className="flex flex-col md:flex-row items-center justify-between mt-3 border-b py-4"
+    >
+      <div className="flex items-center gap-4 w-full md:w-auto">
+        <img
+          src={item.image}
+          alt="Product"
+          className="w-11 h-11 object-cover rounded"
+        />
+        <span className="font-semibold text-sm sm:text-base">
+          {item.name}
+        </span>
+      </div>
 
-              <div className="text-gray-700 font-semibold text-sm sm:text-base">
-                ${(item.price * item.quantity).toFixed(2)}
-              </div>
-              <span className="text-gray-700 text-sm sm:text-base">
-              {item.price}
-               </span>
-            </div>
-          ))}
+      <div className="text-gray-700 font-semibold text-sm sm:text-base">
+        ${(item.price * item.quantity).toFixed(2)}
+      </div>
+      <span className="text-gray-700 text-sm sm:text-base">
+        {item.price}
+      </span>
+    </div>
+  ))}
+</div>
 
-          
-        </div>
 
         {/* Form Section */}
         <div className="p-4 border rounded-lg">
