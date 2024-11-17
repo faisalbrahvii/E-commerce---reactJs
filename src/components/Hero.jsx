@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-zinc-200 flex items-center justify-center relative pt-[80px] overflow-hidden"
+      className="w-full h-screen bg-zinc-200 flex items-center justify-center  pt-[80px] overflow-hidden"
     >
       <div className="grid md:grid-cols-2 max-w-[1240px] mx-auto px-4">
         <div className="flex flex-col justify-center w-full px-4 py-8 space-y-4 md:space-y-6">
